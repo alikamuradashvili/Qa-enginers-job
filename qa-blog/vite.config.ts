@@ -10,8 +10,9 @@ export default defineConfig({
       'all',
       'localhost',
       '192.168.88.75',
-      '.ngrok-free.dev'
+      'hyman-dermatomic-imputedly.ngrok-free.dev'
     ],
     cors: true,
-  },
+    strictPort: true
+  }
 });
